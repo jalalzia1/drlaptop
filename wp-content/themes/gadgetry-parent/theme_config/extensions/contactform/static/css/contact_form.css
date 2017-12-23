@@ -1,0 +1,129 @@
+#header_message 
+{margin:0;}
+.reset-link{
+    position:absolute;
+    z-index: 1000;
+}
+.row.rowSubmit{
+    margin-top:-9px;
+}
+
+.ajax_form #sending{
+    color:#fff;
+    text-align:center;
+    margin-right:30px;
+	border:0;
+}
+.tfuse_captcha_reload{
+        background-image:url(../images/reload.png) !important;
+        background-repeat: no-repeat !important;
+        height: 18px !important;
+        margin-top: 15px !important;
+        max-width: 16px !important;
+        vertical-align: top;
+        background-color: transparent !important;
+        border:none !important;
+    }
+
+/* preview*/
+#TB_ajaxContent .comment-form .row .label_title {
+line-height: 18px;
+display: block;
+color: #4C4C4C;
+font-size: 13px;
+margin-bottom: 2px;
+}
+#TB_ajaxContent .comment-form .infieldlabel label,#TB_ajaxContent .newsletterBox .infieldlabel label {
+position: absolute;
+z-index: 2;
+margin-left: 7px;
+margin-top:8px;
+color: #4C4C4C;
+}
+#TB_ajaxContent form .row {
+font-size: 13px;
+font-style: italic;
+}
+#TB_ajaxContent input[type="text"],#TB_ajaxContent input[type="password"],
+#TB_ajaxContent input[type="email"],#TB_ajaxContent input[type="reset"],#TB_ajaxContent select, 
+#TB_ajaxContent textarea {
+resize: none;
+font-family: 'Droid Serif', serif;
+background: white !important;
+font-size: 13px;
+font-style: italic;
+border: 1px solid lightGrey;
+padding: 10px 5px;
+color: #4C4C4C;
+}
+#TB_ajaxContent input[type="text"]
+#TB_ajaxContent input[type="email"]{
+height:35px;
+}
+#TB_ajaxContent .comment-form .row {
+margin-right: 13px;
+}
+
+#TB_ajaxContent .comment-form .row.inlinelist,#TB_ajaxContent .comment-form .row.checklist   {
+margin-right: 37px;
+}
+
+#TB_ajaxContent input[type="text"] {
+height: 35px;
+} 
+#TB_ajaxContent .custom-checkbox,#TB_ajaxContent .custom-radio { position:relative; font-size:13px}
+
+/* input, label positioning */
+#TB_ajaxContent .custom-checkbox input,#TB_ajaxContent .custom-radio input { position:absolute; left:7px; top:8px; margin:0; border:none; width:1px; height:1px;}
+#TB_ajaxContent .custom-checkbox input {left:6px; top:7px;}
+#TB_ajaxContent .ie7 .custom-checkbox input {left:2px; top:12px;}
+#TB_ajaxContent .custom-checkbox label,#TB_ajaxContent .custom-radio label { display:block; position:relative; line-height:1; padding:.4em 0 .3em 30px; margin:0 0 .3em; cursor:pointer; color:#666;}
+
+#TB_ajaxContent .custom-radio label {padding:.4em 0 .3em 30px;}
+
+/* states */
+#TB_ajaxContent .custom-checkbox label { background:url("../../../../../images/styled_checkbox.png") no-repeat; }
+#TB_ajaxContent .custom-radio label { background:url("../../../../../images/styled_radiobutton.png") no-repeat; }
+#TB_ajaxContent .custom-checkbox label,#TB_ajaxContent .custom-radio label { background-position:-10px -10px; }
+#TB_ajaxContent .custom-checkbox label.hover,#TB_ajaxContent .custom-checkbox label.focus,
+#TB_ajaxContent .custom-radio label.hover,#TB_ajaxContent .custom-radio label.focus { background-position:-10px -110px; }
+#TB_ajaxContent .custom-checkbox label.checked,#TB_ajaxContent .custom-radio label.checked { background-position:-10px -210px; color:#222 }
+#TB_ajaxContent .custom-checkbox label.checked.hover,#TB_ajaxContent .custom-checkbox label.checkedFocus { background-position:-10px -310px; }
+#TB_ajaxContent .custom-checkbox label.focus,#TB_ajaxContent .custom-radio label.focus { outline:0; }
+
+#TB_ajaxContent .tfuse_captcha_reload{
+       width:20px;
+    }
+    
+#TB_ajaxContent .ie7 .btn-submit,#TB_ajaxContent .btn-arrow,#TB_ajaxContent .comment-form .btn-submit {
+filter: chroma(color=#000000);
+border: none;
+width: 120px;
+text-align: center;
+}
+
+#TB_ajaxContent .btn-submit,#TB_ajaxContent .btn-arrow,#TB_ajaxContent input.btn-submit,#TB_ajaxContent input.btn-arrow,#TB_ajaxContent .comment-form .btn-submit {
+background: #4E8FFA;
+border: 1px solid #366ECB;
+text-align: center;
+min-width: 50px;
+padding: 0 40px;
+font-family: 'Droid Sans', sans-serif;
+text-transform: uppercase;
+letter-spacing: 1px;
+color: white;
+font-size: 13px;
+line-height: 38px;
+height: 38px;
+-webkit-appearance: none;
+margin-left: 450px;
+width: auto;
+}
+
+#TB_ajaxContent .reset-link a:hover,#TB_ajaxContent .reset-link a{
+    color: #4E8FFA;
+    text-decoration: none;
+}
+#TB_ajaxContent .comment-form .row label strong {
+font-weight: normal;
+}

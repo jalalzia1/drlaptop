@@ -1,0 +1,61 @@
+*** Gadgetry Changelog ***
+
+ 2016.04.12 - version 1.1.5
+ * minor changes for wp 4.5
+	gadgetry-parent/js/general.js
+ 
+ 2015.08.17 - version 1.1.4
+ * update to prettyPhoto library
+	gadgetry-parent/js/jquery.prettyPhoto.js
+ * minor changes
+	gadgetry-parent/header-map.php
+	gadgetry-parent/header.php
+	gadgetry-parent/js/advanced.js
+ 
+ 2014.01.14 - version 1.1.3
+ * compatibility with theme-check plugin
+	gadgetry-parent/comments.php
+	gadgetry-parent/header.php
+	gadgetry-parent/screen.css
+	gadgetry-parent/single.php
+	gadgetry-parent/style.css
+ * fixed minor issue in css styles
+	gadgetry-parent/style.css
+ * solved problem with responsive menu
+	gadgetry-parent/js/general.js
+	gadgetry-parent/screen.css
+ * standart more link
+	gadgetry-parent/post-grid.php
+	gadgetry-parent/post-list.php
+ 
+ 2013.08.02 - version 1.1.2
+ * wp 3.6 bugs solved
+    gadgetry-parent/style.css
+
+ 2013.06.19 - version 1.1.1
+ * responsive cf and rf
+    gadgetry-parent/js/reservation_frontend.js
+    gadgetry-parent/screen.css
+ * wpml on homepage
+    gadgetry-parent/header-map.php
+ * new install
+    gadgetry-parent/install/wordpress-gadgetry.xml_.txt
+
+ 2013.01.30 - version 1.1
+ * admin bar styles
+ * GET, POST, COOKIE changes
+
+ 2012.12.24 - version 1.0.3
+ * minor changes
+ * disable post comments
+
+ 2012.12.21 - version 1.0.2
+ * tfuse_media file changes
+ * minor changes word spelling
+
+ 2012.12.10 - version 1.0.1
+ * custom  field on contact form
+ * solved bug on logo
+
+  2012.11.21 - version 1.0.0
+  * First release!

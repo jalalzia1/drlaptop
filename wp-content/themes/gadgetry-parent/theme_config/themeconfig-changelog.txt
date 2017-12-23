@@ -1,0 +1,190 @@
+*** Theme Config Changelog ***
+
+ 2016.04.12 - version 1.1.5
+ * fixed vimeo url parser
+	gadgetry-parent/theme_config/extensions/shortcodes/shortcodes/video_player.php
+ * changed widgets constructor name
+	gadgetry-parent/theme_config/widgets/TFuse_Nav_Menu_Widget.php
+	gadgetry-parent/theme_config/widgets/TFuse_Widget_Adds.php
+	gadgetry-parent/theme_config/widgets/TFuse_Widget_Archives.php
+	gadgetry-parent/theme_config/widgets/TFuse_Widget_Calendar.php
+	gadgetry-parent/theme_config/widgets/TFuse_Widget_Categories.php
+	gadgetry-parent/theme_config/widgets/TFuse_Widget_Contact.php
+	gadgetry-parent/theme_config/widgets/TFuse_Widget_Flickr.php
+	gadgetry-parent/theme_config/widgets/TFuse_Widget_Links.php
+	gadgetry-parent/theme_config/widgets/TFuse_Widget_Login.php
+	gadgetry-parent/theme_config/widgets/TFuse_Widget_Meta.php
+	gadgetry-parent/theme_config/widgets/TFuse_Widget_Newsletter.php
+	gadgetry-parent/theme_config/widgets/TFuse_Widget_Pages.php
+	gadgetry-parent/theme_config/widgets/TFuse_Widget_Popular_Post.php
+	gadgetry-parent/theme_config/widgets/TFuse_Widget_Recent_Comments.php
+	gadgetry-parent/theme_config/widgets/TFuse_Widget_Recent_Posts.php
+	gadgetry-parent/theme_config/widgets/TFuse_Widget_Search.php
+	gadgetry-parent/theme_config/widgets/TFuse_Widget_Selected_Categories.php
+	gadgetry-parent/theme_config/widgets/TFuse_Widget_Selected_Pages.php
+	gadgetry-parent/theme_config/widgets/TFuse_Widget_Social.php
+	gadgetry-parent/theme_config/widgets/TFuse_Widget_Tabs.php
+	gadgetry-parent/theme_config/widgets/TFuse_Widget_Tag_Cloud.php
+	gadgetry-parent/theme_config/widgets/TFuse_Widget_Testimonial.php
+	gadgetry-parent/theme_config/widgets/TFuse_Widget_Text.php
+	gadgetry-parent/theme_config/widgets/TFuse_Widget_Twitter.php
+ * added filter for comment form
+	gadgetry-parent/theme_config/theme_includes/AJAX_CALLBACKS.php
+ * minor changes for testimonials
+	gadgetry-parent/theme_config/theme_includes/THEME_SCRIPTS_STYLES.php
+	gadgetry-parent/theme_config/extensions/shortcodes/shortcodes/testimonials.php
+	gadgetry-parent/theme_config/widgets/TFuse_Widget_Testimonial.php
+ 
+ 2015.08.17 - version 1.1.4
+ * minor changes for wp 4.3
+	gadgetry-parent/theme_config/widgets/TFuse_Nav_Menu_Widget.php
+	gadgetry-parent/theme_config/widgets/TFuse_Widget_Adds.php
+	gadgetry-parent/theme_config/widgets/TFuse_Widget_Archives.php
+	gadgetry-parent/theme_config/widgets/TFuse_Widget_Calendar.php
+	gadgetry-parent/theme_config/widgets/TFuse_Widget_Categories.php
+	gadgetry-parent/theme_config/widgets/TFuse_Widget_Contact.php
+	gadgetry-parent/theme_config/widgets/TFuse_Widget_Flickr.php
+	gadgetry-parent/theme_config/widgets/TFuse_Widget_Links.php
+	gadgetry-parent/theme_config/widgets/TFuse_Widget_Login.php
+	gadgetry-parent/theme_config/widgets/TFuse_Widget_Meta.php
+	gadgetry-parent/theme_config/widgets/TFuse_Widget_Newsletter.php
+	gadgetry-parent/theme_config/widgets/TFuse_Widget_Pages.php
+	gadgetry-parent/theme_config/widgets/TFuse_Widget_Popular_Post.php
+	gadgetry-parent/theme_config/widgets/TFuse_Widget_Recent_Comments.php
+	gadgetry-parent/theme_config/widgets/TFuse_Widget_Recent_Posts.php
+	gadgetry-parent/theme_config/widgets/TFuse_Widget_Search.php
+	gadgetry-parent/theme_config/widgets/TFuse_Widget_Selected_Categories.php
+	gadgetry-parent/theme_config/widgets/TFuse_Widget_Selected_Pages.php
+	gadgetry-parent/theme_config/widgets/TFuse_Widget_Social.php
+	gadgetry-parent/theme_config/widgets/TFuse_Widget_Tabs.php
+	gadgetry-parent/theme_config/widgets/TFuse_Widget_Tag_Cloud.php
+	gadgetry-parent/theme_config/widgets/TFuse_Widget_Testimonial.php
+	gadgetry-parent/theme_config/widgets/TFuse_Widget_Text.php
+	gadgetry-parent/theme_config/widgets/TFuse_Widget_Twitter.php
+ * add query escaped
+	gadgetry-parent/theme_config/theme_includes/THEME_FUNCTIONS.php
+ * minor changes
+	gadgetry-parent/theme_config/extensions/shortcodes/shortcodes/chart.php
+	gadgetry-parent/theme_config/extensions/shortcodes/shortcodes/flickr.php
+	gadgetry-parent/theme_config/extensions/shortcodes/shortcodes/map.php
+	gadgetry-parent/theme_config/extensions/shortcodes/shortcodes/video_player.php
+	gadgetry-parent/theme_config/options/admin_options.php
+	gadgetry-parent/theme_config/widgets/TFuse_Widget_Flickr.php
+	gadgetry-parent/theme_config/config/theme_config.php
+	gadgetry-parent/theme_config/extensions/shortcodes/shortcodes/newsletter.php
+	gadgetry-parent/theme_config/extensions/slider/designs/flexslider/options/flexslider_options.php
+	gadgetry-parent/theme_config/extensions/slider/designs/flexslider/template.php
+	gadgetry-parent/theme_config/widgets/TFuse_Widget_Newsletter.php
+ * repaired problem with reservation form
+	gadgetry-parent/theme_config/theme_includes/THEME_FUNCTIONS.php
+ * made newsletter submit button translatable
+	gadgetry-parent/theme_config/extensions/shortcodes/shortcodes/newsletter.php
+	gadgetry-parent/theme_config/widgets/TFuse_Widget_Newsletter.php
+ 
+ 2014.01.14 - version 1.1.3
+ * updated reservation form settings
+	gadgetry-parent/theme_config/extensions/reservationform/configurations/base_cfg.php
+	gadgetry-parent/theme_config/extensions/reservationform/options/reservationform_options.php
+	gadgetry-parent/theme_config/extensions/shortcodes/shortcodes/reservationform.php
+	gadgetry-parent/theme_config/theme_includes/THEME_FUNCTIONS.php
+ * compatibility with theme-check plugin
+	gadgetry-parent/theme_config/extensions/shortcodes/shortcodes/icons.php
+	gadgetry-parent/theme_config/extensions/shortcodes/shortcodes/reservationform.php
+	gadgetry-parent/theme_config/theme_includes/THEME_FUNCTIONS.php
+	gadgetry-parent/theme_config/widgets/TFuse_Widget_Adds.php
+	gadgetry-parent/theme_config/widgets/TFuse_Widget_Login.php
+	gadgetry-parent/theme_config/widgets/TFuse_Widget_Selected_Categories.php
+ * fixed minor issue in css styles
+	gadgetry-parent/theme_config/extensions/contactform/static/css/contact_form.css
+	gadgetry-parent/theme_config/extensions/reservationform/static/css/reservation_form.css
+ * widgets sidebar name
+	gadgetry-parent/theme_config/common_includes/CUSTOM_POSTS.php
+	gadgetry-parent/theme_config/extensions/sidebars/configurations/base_cfg.php
+ * theme is translatable
+	gadgetry-parent/theme_config/common_includes/CUSTOM_POSTS.php
+	gadgetry-parent/theme_config/extensions/contactform/configurations/base_cfg.php
+	gadgetry-parent/theme_config/extensions/contactform/options/contactform_options.php
+	gadgetry-parent/theme_config/extensions/reservationform/configurations/base_cfg.php
+	gadgetry-parent/theme_config/extensions/reservationform/options/reservationform_options.php
+	gadgetry-parent/theme_config/extensions/shortcodes/shortcodes/advertising.php
+	gadgetry-parent/theme_config/extensions/shortcodes/shortcodes/button.php
+	gadgetry-parent/theme_config/extensions/shortcodes/shortcodes/chart.php
+	gadgetry-parent/theme_config/extensions/shortcodes/shortcodes/columns.php
+	gadgetry-parent/theme_config/extensions/shortcodes/shortcodes/contactform.php
+	gadgetry-parent/theme_config/extensions/shortcodes/shortcodes/divider.php
+	gadgetry-parent/theme_config/extensions/shortcodes/shortcodes/drop_cap.php
+	gadgetry-parent/theme_config/extensions/shortcodes/shortcodes/faq.php
+	gadgetry-parent/theme_config/extensions/shortcodes/shortcodes/flickr.php
+	gadgetry-parent/theme_config/extensions/shortcodes/shortcodes/highlight.php
+	gadgetry-parent/theme_config/extensions/shortcodes/shortcodes/icons.php
+	gadgetry-parent/theme_config/extensions/shortcodes/shortcodes/image_frame.php
+	gadgetry-parent/theme_config/extensions/shortcodes/shortcodes/link_more.php
+	gadgetry-parent/theme_config/extensions/shortcodes/shortcodes/list.php
+	gadgetry-parent/theme_config/extensions/shortcodes/shortcodes/login.php
+	gadgetry-parent/theme_config/extensions/shortcodes/shortcodes/map.php
+	gadgetry-parent/theme_config/extensions/shortcodes/shortcodes/minigallery.php
+	gadgetry-parent/theme_config/extensions/shortcodes/shortcodes/newsletter.php
+	gadgetry-parent/theme_config/extensions/shortcodes/shortcodes/posts-carousel.php
+	gadgetry-parent/theme_config/extensions/shortcodes/shortcodes/prettyPhoto.php
+	gadgetry-parent/theme_config/extensions/shortcodes/shortcodes/quotes.php
+	gadgetry-parent/theme_config/extensions/shortcodes/shortcodes/reservationform.php
+	gadgetry-parent/theme_config/extensions/shortcodes/shortcodes/rows.php
+	gadgetry-parent/theme_config/extensions/shortcodes/shortcodes/search.php
+	gadgetry-parent/theme_config/extensions/shortcodes/shortcodes/slideshow.php
+	gadgetry-parent/theme_config/extensions/shortcodes/shortcodes/style_box.php
+	gadgetry-parent/theme_config/extensions/shortcodes/shortcodes/table.php
+	gadgetry-parent/theme_config/extensions/shortcodes/shortcodes/tabs.php
+	gadgetry-parent/theme_config/extensions/shortcodes/shortcodes/tabs_posts.php
+	gadgetry-parent/theme_config/extensions/shortcodes/shortcodes/testimonials.php
+	gadgetry-parent/theme_config/extensions/shortcodes/shortcodes/text-styles.php
+	gadgetry-parent/theme_config/extensions/shortcodes/shortcodes/title.php
+	gadgetry-parent/theme_config/extensions/shortcodes/shortcodes/toggle_code.php
+	gadgetry-parent/theme_config/extensions/shortcodes/shortcodes/twitter.php
+	gadgetry-parent/theme_config/extensions/shortcodes/shortcodes/video_player.php
+	gadgetry-parent/theme_config/extensions/sidebars/configurations/base_cfg.php
+	gadgetry-parent/theme_config/extensions/sidebars/includes/sidebars_init.php
+	gadgetry-parent/theme_config/extensions/slider/configurations/base_cfg.php
+	gadgetry-parent/theme_config/extensions/slider/designs/flexslider/options/flexslider_options.php
+	gadgetry-parent/theme_config/options/admin_options.php
+	gadgetry-parent/theme_config/options/category_options.php
+	gadgetry-parent/theme_config/options/page_options.php
+	gadgetry-parent/theme_config/options/post_options.php
+	gadgetry-parent/theme_config/options/testimonials_options.php
+	gadgetry-parent/theme_config/theme_includes/THEME_HEADER_CONTENT.php
+	gadgetry-parent/theme_config/widgets/TFuse_Widget_Recent_Comments.php
+ 
+ 2013.08.02 - version 1.1.2
+ * wp 3.6 bugs solved
+    gadgetry-parent/theme_config/extensions/shortcodes/shortcodes/map.php
+    gadgetry-parent/theme_config/extensions/shortcodes/shortcodes/toggle_code.php
+    gadgetry-parent/theme_config/theme_includes/THEME_FUNCTIONS.php
+    gadgetry-parent/theme_config/widgets/TFuse_Widget_Selected_Categories.php
+    gadgetry-parent/theme_config/widgets/TFuse_Widget_Selected_Pages.php
+
+ 2013.06.19 - version 1.1.1
+ * responsive cf and rf
+    gadgetry-parent/theme_config/extensions/shortcodes/shortcodes/reservationform.php
+ * wpml on homepage
+    gadgetry-parent/theme_config/theme_includes/THEME_FUNCTIONS.php
+    gadgetry-parent/theme_config/theme_includes/THEME_HEADER_CONTENT.php
+ * featured image
+    gadgetry-parent/theme_config/theme_includes/THEME_FUNCTIONS.php
+ * twitter. api v 1.1
+    gadgetry-parent/theme_config/extensions/shortcodes/shortcodes/twitter.php
+    gadgetry-parent/theme_config/options/admin_options.php
+    gadgetry-parent/theme_config/widgets/TFuse_Widget_Twitter.php
+
+ 2013.01.30 - version 1.1
+ * admin bar styles
+ * GET, POST, COOKIE changes
+
+ 2012.12.21 - version 1.0.2
+ * tfuse_media file changes
+ * minor changes word spelling
+
+ 2012.12.10 - version 1.0.1
+ * custom  field on contact form
+ * solved bug on logo
+
+ 2012.21.11 - version 1.0
+ * First release!
